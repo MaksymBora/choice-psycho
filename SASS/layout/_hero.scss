@@ -12,13 +12,18 @@
   margin-bottom: 20px;
 }
 
+.hero__img {
+  z-index: -1;
+}
+
 .hero__list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  bottom: 20px;
-  right: 25px;
+  top: 0;
+  right: 35%;
+  transform: translate(41%, 171%);
 }
 
 .hero__list-item {
@@ -28,6 +33,7 @@
 .hero__info {
   display: inline-flex;
   padding: 10px 20px;
+
   font-size: 12px;
   line-height: 1.5;
   font-weight: 600;
