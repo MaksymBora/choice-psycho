@@ -1,6 +1,7 @@
 @import '../utils/colors';
 
 .hero {
+  position: relative;
   padding-top: 20px;
 }
 
@@ -16,8 +17,8 @@
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  bottom: 90px;
-  right: 30px;
+  bottom: 20px;
+  right: 25px;
 }
 
 .hero__list-item {
