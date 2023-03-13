@@ -1,0 +1,25 @@
+@import '../utils/placeholder';
+@import '../utils/colors';
+
+.page-header {
+  padding-top: 23px;
+}
+
+.navbar {
+  @extend %flex-view;
+  justify-content: space-between;
+}
+
+.navbar__event {
+  font-weight: 700;
+  border: 1px solid $primery;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+.navbar_btn-menu {
+  @extend %flex-view;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
