@@ -1,13 +1,5 @@
 @import '../utils/colors';
 
-body {
-  background: $body-bg;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  color: $primery;
-}
-
 h1,
 h2,
 h3,
@@ -28,4 +20,16 @@ ul {
 img {
   display: block;
   width: 100%;
+}
+
+button {
+  padding: 0;
+}
+
+body {
+  background: $body-bg;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $primery;
 }

@@ -1,7 +1,7 @@
 @import '../utils/colors';
+@import '../base/common';
 
 .hero {
-  position: relative;
   padding-top: 20px;
 }
 
@@ -12,8 +12,14 @@
   margin-bottom: 20px;
 }
 
+.hero__conent-wrapper {
+  position: relative;
+  width: 100%;
+}
+
 .hero__img {
   z-index: -1;
+  margin-bottom: 10px;
 }
 
 .hero__list {
@@ -21,9 +27,8 @@
   flex-direction: column;
   gap: 10px;
   position: absolute;
-  top: 0;
-  right: 35%;
-  transform: translate(41%, 171%);
+  top: 114px;
+  right: 0;
 }
 
 .hero__list-item {
@@ -51,4 +56,39 @@
 
 .hero_info--blue {
   background-color: #ceebfc;
+}
+
+// Lable
+
+.hero__label {
+  max-width: 290px;
+  padding: 30px 20px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: linear-gradient(to bottom left, #5790e8, #5cc9d7);
+}
+
+.label_text {
+  display: inline-flex;
+  margin-bottom: 30px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: $label;
+}
+
+.btn__signup {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 130px;
+  background-color: $label;
+  padding: 15px 69px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $label-btn-text;
 }

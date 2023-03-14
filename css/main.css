@@ -1,12 +1,3 @@
-body {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), #8ac6e8;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #8ac6e8;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #44464a;
-}
-
 h1,
 h2,
 h3,
@@ -27,6 +18,19 @@ ul {
 img {
   display: block;
   width: 100%;
+}
+
+button {
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), #8ac6e8;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #8ac6e8;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #44464a;
 }
 
 .container {
@@ -81,8 +85,42 @@ img {
   cursor: pointer;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  padding: 0;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), #8ac6e8;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #8ac6e8;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #44464a;
+}
+
 .hero {
-  position: relative;
   padding-top: 20px;
 }
 
@@ -93,8 +131,14 @@ img {
   margin-bottom: 20px;
 }
 
+.hero__conent-wrapper {
+  position: relative;
+  width: 100%;
+}
+
 .hero__img {
   z-index: -1;
+  margin-bottom: 10px;
 }
 
 .hero__list {
@@ -107,10 +151,8 @@ img {
           flex-direction: column;
   gap: 10px;
   position: absolute;
-  top: 0;
-  right: 35%;
-  -webkit-transform: translate(41%, 171%);
-          transform: translate(41%, 171%);
+  top: 114px;
+  right: 0;
 }
 
 .hero__list-item {
@@ -140,4 +182,37 @@ img {
 
 .hero_info--blue {
   background-color: #ceebfc;
+}
+
+.hero__label {
+  max-width: 290px;
+  padding: 30px 20px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-gradient(linear, right top, left bottom, from(#5790e8), to(#5cc9d7));
+  background: linear-gradient(to bottom left, #5790e8, #5cc9d7);
+}
+
+.label_text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.btn__signup {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 130px;
+  background-color: #ffffff;
+  padding: 15px 69px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #3c7ca0;
 }/*# sourceMappingURL=main.css.map */
