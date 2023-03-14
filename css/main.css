@@ -72,6 +72,10 @@ body {
           justify-content: space-between;
 }
 
+.logo__img {
+  width: 83px;
+}
+
 .navbar__event {
   font-weight: 700;
   border: 1px solid #44464a;
