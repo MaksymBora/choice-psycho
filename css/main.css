@@ -301,6 +301,13 @@ body {
   width: 21px;
 }
 
+.common__label {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
 .common-info__post {
   background-color: #f3f9fd;
   border-radius: 30px;
