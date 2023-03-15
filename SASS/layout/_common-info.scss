@@ -24,21 +24,15 @@
 
 .common-info__item {
   position: relative;
+  display: flex;
   font-weight: 500;
+  gap: 10px;
 
   &:not(:last-child) {
     margin-bottom: 15px;
   }
 }
 
-.common-info__text::before {
-  content: '';
-  position: absolute;
-  top: 25%;
-  left: 0;
-  background-image: url(../../images/common-list.svg);
-  background-position: center;
-  background-size: contain;
+.common-info__item-icon {
   width: 21px;
-  height: 21px;
 }
