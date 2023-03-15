@@ -22,6 +22,10 @@
   line-height: 1.5;
 }
 
+.common-info__list {
+  margin-bottom: 15px;
+}
+
 .common-info__item {
   position: relative;
   display: flex;
@@ -35,4 +39,13 @@
 
 .common-info__item-icon {
   width: 21px;
+}
+
+// Common Info Post
+
+.common-info__post {
+  background-color: $blog-post;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
 }

@@ -278,6 +278,10 @@ body {
   line-height: 1.5;
 }
 
+.common-info__list {
+  margin-bottom: 15px;
+}
+
 .common-info__item {
   position: relative;
   display: -webkit-box;
@@ -292,4 +296,11 @@ body {
 
 .common-info__item-icon {
   width: 21px;
+}
+
+.common-info__post {
+  background-color: #f3f9fd;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
 }/*# sourceMappingURL=main.css.map */
