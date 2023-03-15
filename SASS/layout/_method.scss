@@ -1,0 +1,44 @@
+// Method Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/colors';
+
+.method {
+  padding: 40px 15px;
+}
+
+.method__container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $label;
+  box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+  border-radius: 30px;
+}
+
+.method__img {
+  margin-bottom: 20px;
+}
+
+.method__title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.method__text--margin {
+  margin-bottom: 40px;
+}
+
+.author {
+  display: block;
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: $author-bg;
+  border-radius: 30px;
+}
+
+.author__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
