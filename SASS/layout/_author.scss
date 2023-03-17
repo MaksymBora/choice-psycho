@@ -1,0 +1,134 @@
+// Author Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/colors';
+
+.creator {
+  padding-top: 40px;
+}
+
+.creator__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.creator__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.creator__img {
+  position: relative;
+  z-index: -1;
+  margin-bottom: -90px;
+}
+
+.profession__img {
+  width: 20px;
+  height: 20px;
+}
+
+.creator__profession {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: $label;
+  padding: 10px 15px;
+  box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+  border-radius: 20px;
+  max-width: 250px;
+
+  p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+.creator__profession--margin {
+  margin-bottom: 10px;
+}
+
+.creator__profession--margin-btm {
+  margin-bottom: 30px;
+}
+
+// Experience
+
+.experience__list {
+  margin-bottom: 30px;
+}
+
+.experience__item {
+  display: flex;
+  gap: 10px;
+}
+
+.experience__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.experience__info {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// QUOTE
+
+.quote {
+  position: relative;
+  display: block;
+  padding: 30px 20px;
+  box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+  border-radius: 30px;
+  background-color: $label;
+  margin-bottom: 30px;
+}
+
+.quote__text::before {
+  content: '';
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-image: url('../../images/quotes1.svg');
+}
+
+.quote__text::after {
+  content: '';
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-image: url('../../images/quotes.svg');
+}
+
+.creator__btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 15px 22px;
+  background: radial-gradient(100% 195.02% at 0% 0%, #77b7db 30.73%, #8bccf1 100%);
+  border: none;
+
+  border-radius: 35px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $label;
+}
+
+.creator__icon {
+  height: 40px;
+}
