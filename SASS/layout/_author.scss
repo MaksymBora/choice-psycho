@@ -63,6 +63,10 @@
   margin-bottom: 30px;
 }
 
+.experience__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
 .experience__item {
   display: flex;
   gap: 10px;
