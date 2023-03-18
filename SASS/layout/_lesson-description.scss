@@ -18,6 +18,28 @@
   margin-bottom: 20px;
 }
 
+.first-lesson__menu {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf5fb;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.arrow__icon {
+  width: 16px;
+  height: 16px;
+}
+
 .first-lesson__title {
   font-weight: 700;
   font-size: 24px;
@@ -151,9 +173,19 @@
 
 .second-lesson {
   padding: 20px 15px;
-  background-color: #d3dcf7;
+  background-color: #e7eaf4;
   border-radius: 30px;
   margin-bottom: 20px;
+}
+
+.second-lesson__menu {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-between;
+}
+
+.second-lesson--arrow {
+  background-color: #e1e6f5;
 }
 
 .second-leeson__title {
@@ -167,6 +199,16 @@
   background-color: #ffdce8;
   border-radius: 30px;
   margin-bottom: 30px;
+}
+
+.third-lesson__menu {
+  display: flex;
+  align-items: first baseline;
+  justify-content: space-between;
+}
+
+.third-lesson--arrow {
+  background-color: #f5abc5;
 }
 
 .third-leeson__title {
