@@ -1,0 +1,57 @@
+// Education Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/colors';
+@import '../utils/placeholder';
+
+.education {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.education__title {
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.program__icon {
+  width: 50px;
+  height: 50px;
+}
+
+.program__item {
+  padding: 20px 15px;
+  background: $label;
+  box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+  border-radius: 30px;
+}
+
+.program__wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.program__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.program__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.program__item:last-child {
+  margin-bottom: 30px;
+}
+
+.education__btn {
+  @extend %btn;
+  padding: 15px 47px;
+}
