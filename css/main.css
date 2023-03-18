@@ -1186,7 +1186,6 @@ body {
   height: 21px;
   background-image: url("../../images/icons/checked.svg");
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -1223,7 +1222,6 @@ body {
   height: 10px;
   background-image: url("../../images/icons/ellipse.svg");
   background-position: center;
-  background-size: auto;
   background-repeat: no-repeat;
 }
 
