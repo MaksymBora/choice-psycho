@@ -1,0 +1,185 @@
+// Lesson Desctiption Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/colors';
+@import '../utils/placeholder';
+
+.lesson-description {
+  background-color: #edf7f9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container--padding {
+}
+
+.first-lesson {
+  background-color: $label;
+  padding: 20px 15px;
+  box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.first-lesson__title {
+  font-weight: 700;
+  font-size: 24px;
+
+  margin-bottom: 20px;
+}
+
+.first-lesson__subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.first-lesson__info {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.first-lesson__list {
+  padding-left: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: decimal-leading-zero;
+}
+
+.first-lesson__item {
+  padding-left: 10px;
+}
+
+.first-lesson__item::marker {
+  color: $marker;
+}
+
+.first-lesson__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.first-lesson__item:last-child {
+  margin-bottom: 20px;
+}
+
+.discount {
+  display: flex;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff4f8;
+  margin-bottom: 20px;
+}
+
+.info__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.discount__info {
+  font-weight: 600;
+}
+
+// Lesson Result
+
+.lesson-result__wrapper {
+  background-color: $lesson-result;
+  padding: 15px 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.lesson-result__title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.lesson-result__item {
+  display: flex;
+  gap: 10px;
+}
+
+.lesson-result__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.lesson-result__item::before {
+  content: '';
+  flex-shrink: 0;
+  display: block;
+  width: 15px;
+  height: 21px;
+  background-image: url('../../images/icons/checked.svg');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+// Additional Materials
+
+.additional-materials__title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.additional-material__info {
+  font-size: 16px;
+}
+
+.additional-materials__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.additional-materials__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.additional-materials__item::before {
+  content: '';
+  flex-shrink: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-image: url('../../images/icons/ellipse.svg');
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+// Second Lesson
+
+.second-lesson {
+  padding: 20px 15px;
+  background-color: #d3dcf7;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.second-leeson__title {
+  font-size: 24px;
+}
+
+// Third Lesson
+
+.third-lesson {
+  padding: 20px 15px;
+  background-color: #ffdce8;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.third-leeson__title {
+  font-size: 24px;
+}
+
+// btn
+
+.lesson-description__btn {
+  @extend %btn;
+  width: 100%;
+  margin-bottom: 0;
+}
