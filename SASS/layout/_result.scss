@@ -1,0 +1,64 @@
+// Result Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/colors';
+@import '../utils/placeholder';
+
+.result {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $label;
+}
+
+.result__img {
+  margin-bottom: 10px;
+}
+
+.result__number {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.24;
+}
+
+.result__description {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.result__list {
+  padding-left: 1rem;
+}
+
+.result__item::before {
+  content: '\2022';
+  color: #7bbbdf;
+  font-weight: bold;
+  display: inline-block;
+
+  margin-left: -1em;
+  margin-right: 10px;
+}
+
+.result__item {
+  display: inline-flex;
+}
+
+.result__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.result__info {
+  font-size: 16px;
+}
+
+.result__item:last-child {
+  margin-bottom: 30px;
+}
+
+.result__btn {
+  @extend %btn;
+  padding-left: 47px;
+  padding-right: 47px;
+}
