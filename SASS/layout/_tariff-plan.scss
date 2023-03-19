@@ -1,0 +1,188 @@
+// Tariff-plan Desctiption Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/placeholder';
+
+.tariff-plan {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tariff-plan__title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.tariff-plan__info {
+  position: relative;
+  padding: 15px 20px;
+  background-color: $dicount-bg;
+  border: 1px solid #d4e1e9;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.tariff-plan__vip {
+  @extend %label-tariff;
+  position: absolute;
+  background-color: #f8bacf;
+  top: -28px;
+  right: -13px;
+}
+
+.tariff-plan__label {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.discount__author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.discount__name {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.discount__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #f5abc5;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.tariff-plan__discount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tariff-plan__discount-bg {
+  display: inline-block;
+  background-color: #ec9cb8;
+  border-radius: 40px;
+  padding: 3px 15px;
+}
+
+.tariff-plan__discount-amount {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.tariff-plan__price {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+// Optimal
+
+.tariff-plan__optimal {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #7bbbdf;
+  border-radius: 20px;
+}
+
+.optimal__label {
+  @extend %label-tariff;
+  background-color: #98d5f9;
+  top: 0;
+  right: 0;
+}
+
+.optimal__label-name {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.best-choise {
+  display: block;
+  padding: 8px 45px;
+  background: radial-gradient(100% 195.02% at 0% 0%, #8acff5 30.73%, #5db7ea 100%);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.best-choise_info {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.dropplist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.dropplist__title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.dropplist__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bbe3fa;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.dropplist__arrow {
+  width: 16px;
+  height: 16px;
+}
+
+// Tarif-plan__descr
+
+.tariff-plan__descr {
+  border: 1px solid #d4e1e9;
+  border-radius: 30px;
+  padding: 25px 20px;
+}
+
+.tariff-plan__descr-list {
+  margin-bottom: 15px;
+}
+
+.tariff-plan__descr-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.tariff-plan__descr-item::before {
+  content: '';
+  flex-shrink: 0;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-image: url(../../images/icons/ellipse-small.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tariff-plan__descr-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.tariff-plan__about {
+  display: block;
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: #edf6fc;
+  border-radius: 20px;
+}
