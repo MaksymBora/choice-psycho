@@ -1,0 +1,41 @@
+// Lesson Desctiption Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/colors';
+@import '../utils/placeholder';
+
+.feedback {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.feedback__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.feedback__subtitle {
+  margin-bottom: 20px;
+}
+
+.youga__img {
+  margin-bottom: 20px;
+}
+
+.problems__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 10px;
+}
+
+.problems__wrapper {
+  display: inline-block;
+  background-color: $label;
+  padding: 10px 15px;
+  box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+  border-radius: 30px;
+}
+
+.problems__info {
+  font-weight: 600;
+}
