@@ -185,4 +185,49 @@
   margin-bottom: 25px;
   background-color: #edf6fc;
   border-radius: 20px;
+  margin-bottom: 28px;
+}
+
+.tariff-plan__discount-less {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tariff-plan__discount-less-price {
+  color: #b0b9cb;
+  text-decoration: line-through;
+}
+
+.tariff-plan__discount-less-label {
+  display: block;
+  background-color: #548fb1;
+  border-radius: 40px;
+  padding: 3px 15px;
+}
+
+.tariff-plan__discount-less-info {
+  color: #ffffff;
+}
+
+.tariff-plan__discount-less-halfprice {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.tariff-plan__btn {
+  @extend %btn;
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+.tariff-plan__btn-installment {
+  @extend %btn;
+  margin-bottom: 0;
+  width: 100%;
+  background: #ecf5fb;
+  color: #3c7ca0;
 }
