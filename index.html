@@ -739,6 +739,43 @@
         </div>
         <img src="./images/lines.svg" alt="lines" width="320" />
       </section>
+
+      <!-- Question -->
+
+      <section class="question">
+        <div class="container question__content">
+          <img class="question__img" src="./images/question.png" alt="girl" />
+          <h2 class="question__title">Виникли питання?</h2>
+          <p class="question__text">Залиште свої дані і ми вас проконсультуємо</p>
+
+          <form class="question__form">
+            <label class="form__field">
+              <span class="form__field-wrapper">
+                <input
+                  type="text"
+                  name="user_name"
+                  required=""
+                  class="form__field-input"
+                  pattern="[a-zA-Zа-я-А-Я]+"
+                  minlength="2"
+                  placeholder="Ім’я"
+                />
+              </span>
+            </label>
+            <label class="form__field">
+              <span class="form__field-wrapper">
+                <input
+                  type="tel"
+                  name="user_phone"
+                  class="form__field-input"
+                  title="xxx-xxx-xx-xx"
+                  placeholder="Номер телефону"
+                />
+              </span>
+            </label>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
