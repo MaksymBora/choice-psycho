@@ -85,17 +85,20 @@
 // Optimal
 
 .tariff-plan__optimal {
+  position: relative;
   padding: 10px;
   background-color: #ffffff;
   border: 2px solid #7bbbdf;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .optimal__label {
   @extend %label-tariff;
   background-color: #98d5f9;
-  top: 0;
-  right: 0;
+  position: absolute;
+  top: -15px;
+  right: -15px;
 }
 
 .optimal__label-name {
@@ -105,11 +108,26 @@
 }
 
 .best-choise {
-  display: block;
-  padding: 8px 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   background: radial-gradient(100% 195.02% at 0% 0%, #8acff5 30.73%, #5db7ea 100%);
   border-radius: 20px;
   margin-bottom: 10px;
+}
+
+.best-choise::before {
+  content: '';
+  display: inline-flex;
+  background-image: url('../../images/icons/star.png');
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-shrink: 0;
 }
 
 .best-choise_info {
@@ -230,4 +248,27 @@
   width: 100%;
   background: #ecf5fb;
   color: #3c7ca0;
+}
+
+.tariff-plan__infro--bg {
+  background-color: #e9eaff;
+  margin-bottom: 30px;
+}
+
+.discount__arrow--bg {
+  background-color: #a7a9d6;
+  position: relative;
+  z-index: 1;
+}
+
+.tariff-plan__quickly--bg {
+  background-color: #b9bdf9;
+  padding-left: 30px;
+  padding-right: 30px;
+  top: -15px;
+  right: -15px;
+}
+
+.tariff-plan__discount-bg--accent {
+  background-color: #a7a9d6;
 }
