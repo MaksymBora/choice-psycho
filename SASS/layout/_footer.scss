@@ -1,0 +1,66 @@
+// Footer Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/placeholder';
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $footer-bg;
+}
+
+.footer__logo {
+  width: 84px;
+  margin-bottom: 40px;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.instagram__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.instagram__link {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer__tel {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer__email {
+  display: block;
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.rights__list {
+  margin-bottom: 40px;
+}
+
+.rights__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.rights__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #708693;
+}
