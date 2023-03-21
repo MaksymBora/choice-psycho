@@ -1,0 +1,25 @@
+// Advantages Desctiption Section
+@import '../base/common';
+@import '../utils/colors';
+@import '../utils/placeholder';
+
+.advantages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.advantages__img {
+  margin-bottom: 20px;
+}
+
+.advantages__text {
+  margin-bottom: 20px;
+}
+
+.advantages__btn {
+  @extend %btn;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 100%;
+}

@@ -52,7 +52,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.advantages__btn, .question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -87,7 +87,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.advantages__btn, .question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -839,7 +839,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.advantages__btn, .question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -969,7 +969,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.advantages__btn, .question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1095,7 +1095,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .result__btn, .education__btn {
+.advantages__btn, .question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .result__btn, .education__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1406,7 +1406,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
+.advantages__btn, .question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1517,7 +1517,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
+.advantages__btn, .question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1902,7 +1902,7 @@ body {
           justify-content: center;
 }
 
-.question__btn, .result__btn, .education__btn, .lesson-description__btn, .tariff-plan__btn, .tariff-plan__btn-installment {
+.advantages__btn, .question__btn, .result__btn, .education__btn, .lesson-description__btn, .tariff-plan__btn, .tariff-plan__btn-installment {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1974,5 +1974,96 @@ body {
 .question__btn {
   margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), #8ac6e8;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #8ac6e8;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #44464a;
+}
+
+.navbar_btn-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantages__btn, .result__btn, .education__btn, .lesson-description__btn, .tariff-plan__btn, .tariff-plan__btn-installment, .question__btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 15px 22px;
+  background: radial-gradient(100% 195.02% at 0% 0%, #77b7db 30.73%, #8bccf1 100%);
+  border: none;
+  border-radius: 35px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.tariff-plan__vip, .optimal__label {
+  display: inline-block;
+  padding: 5px 40px;
+  border-radius: 50px;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.advantages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.advantages__img {
+  margin-bottom: 20px;
+}
+
+.advantages__text {
+  margin-bottom: 20px;
+}
+
+.advantages__btn {
+  margin-bottom: 0;
+  margin-top: 0;
   width: 100%;
 }/*# sourceMappingURL=main.css.map */
