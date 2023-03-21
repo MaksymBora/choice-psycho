@@ -52,7 +52,7 @@ body {
           justify-content: center;
 }
 
-.tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -87,7 +87,7 @@ body {
           justify-content: center;
 }
 
-.tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -839,7 +839,7 @@ body {
           justify-content: center;
 }
 
-.tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -969,7 +969,7 @@ body {
           justify-content: center;
 }
 
-.tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
+.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .education__btn, .result__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1095,7 +1095,7 @@ body {
           justify-content: center;
 }
 
-.tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .result__btn, .education__btn {
+.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .lesson-description__btn, .result__btn, .education__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1406,7 +1406,7 @@ body {
           justify-content: center;
 }
 
-.tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
+.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1517,7 +1517,7 @@ body {
           justify-content: center;
 }
 
-.tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
+.question__btn, .tariff-plan__btn-installment, .tariff-plan__btn, .result__btn, .education__btn, .lesson-description__btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1902,7 +1902,7 @@ body {
           justify-content: center;
 }
 
-.result__btn, .education__btn, .lesson-description__btn, .tariff-plan__btn, .tariff-plan__btn-installment {
+.question__btn, .result__btn, .education__btn, .lesson-description__btn, .tariff-plan__btn, .tariff-plan__btn-installment {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1969,4 +1969,10 @@ body {
   border: 1px solid #93a1a6;
   border-radius: 10px;
   padding: 18px 20px;
+}
+
+.question__btn {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

@@ -49,3 +49,10 @@
   border-radius: 10px;
   padding: 18px 20px;
 }
+
+.question__btn {
+  @extend %btn;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
