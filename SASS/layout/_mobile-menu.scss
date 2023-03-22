@@ -34,7 +34,7 @@
       left: 50%;
       margin-left: -15px;
 
-      transition: all 200ms;
+      transition: all 250ms;
     }
     &:after {
       top: -7px;
@@ -67,7 +67,7 @@
   background: linear-gradient(to top left, #44c1d3, #46557e);
   background: -webkit-linear-gradient(bottom right, #44c1d3, #46557e);
   background: -moz-linear-gradient(bottom right, #44c1d3, #46557e);
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   z-index: 100;
