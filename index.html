@@ -22,8 +22,36 @@
     <header class="page-header">
       <nav class="navbar container">
         <a href="./index.html" class="logo">
-          <img class="logo__img" src="./images/logo.png" alt="logo" width="83" />
+          <picture>
+            <source srcset="./images/logo.png 1x, ./images/logo2x.png 2x" media="(max-width: 1200px)" />
+            <source
+              srcset="./images/desktop/logo1x.png 1x, ./images/desktop/logo2x.png 2x"
+              media="(min-width: 1200px)"
+            />
+            <img class="logo__img" src="./images/logo.png" alt="logo" width="83" />
+          </picture>
         </a>
+        <ul class="header-menu__list">
+          <li class="header-menu__item">
+            <a href="#about" class="header-menu__link">Про курс</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Програма</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Автор</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Відгуки</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Формат</a>
+          </li>
+          <li class="header-menu__item">
+            <a href="#" class="header-menu__link">Вартість</a>
+          </li>
+        </ul>
+
         <p class="navbar__event">Старт: 03.03.2023</p>
 
         <a href="#" class="menuBtn">
