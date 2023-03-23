@@ -43,6 +43,9 @@ body {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid tomato;
   }
 }
 .navbar_btn-menu {
@@ -423,6 +426,7 @@ body {
 }
 
 .hero__title {
+  max-width: 290px;
   font-size: 24px;
   line-height: 1.5;
   color: #44464a;
@@ -435,7 +439,6 @@ body {
 }
 
 .hero__img {
-  z-index: -1;
   margin-bottom: 10px;
 }
 
@@ -508,13 +511,58 @@ body {
   border: none;
   border-radius: 130px;
   background-color: #ffffff;
-  padding: 15px 69px;
+  padding: 15px 10px;
+  width: 100%;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
   color: #3c7ca0;
 }
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 203px;
+    background-image: url("../../images/desktop/hero1x.png");
+    background-size: 718px;
+    background-repeat: no-repeat;
+    background-position: right 25% bottom 45%;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../../images/desktop/hero2x.png");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    max-width: 470px;
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__img {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__list {
+    top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__label {
+    margin: 0;
+    padding: 30px 50px;
+    max-width: 470px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .label_text {
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
 h1,
 h2,
 h3,
