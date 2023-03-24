@@ -157,6 +157,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .dropplist__arrow {
@@ -170,6 +171,11 @@
   border: 1px solid #d4e1e9;
   border-radius: 30px;
   padding: 25px 20px;
+  display: none;
+
+  &.open {
+    display: block;
+  }
 }
 
 .tariff-plan__descr-list {

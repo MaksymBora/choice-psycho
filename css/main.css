@@ -1459,6 +1459,13 @@ body {
   margin-bottom: 20px;
 }
 
+.first-lesson__wrapper {
+  display: none;
+}
+.first-lesson__wrapper.open {
+  display: block;
+}
+
 .first-lesson__subtitle {
   font-weight: 700;
   font-size: 20px;
@@ -2016,6 +2023,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .dropplist__arrow {
@@ -2027,6 +2035,10 @@ body {
   border: 1px solid #d4e1e9;
   border-radius: 30px;
   padding: 25px 20px;
+  display: none;
+}
+.tariff-plan__descr.open {
+  display: block;
 }
 
 .tariff-plan__descr-list {
