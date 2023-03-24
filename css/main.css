@@ -1459,13 +1459,6 @@ body {
   margin-bottom: 20px;
 }
 
-.first-lesson__wrapper {
-  display: none;
-}
-.first-lesson__wrapper.open {
-  display: block;
-}
-
 .first-lesson__subtitle {
   font-weight: 700;
   font-size: 20px;
