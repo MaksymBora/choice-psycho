@@ -940,6 +940,7 @@ body {
 
 .method {
   padding: 40px 15px;
+  background-color: #fefefe;
 }
 
 .method__container {
@@ -979,6 +980,55 @@ body {
   line-height: 1.5;
 }
 
+@media screen and (min-width: 1200px) {
+  .method {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    -webkit-box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+            box-shadow: 0px 10px 70px rgba(79, 146, 170, 0.1);
+  }
+  .method__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 70px;
+    padding: 40px 50px;
+  }
+  .method__img {
+    width: 400px;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .method__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .method__title {
+    font-size: 30px;
+  }
+  .method__text {
+    font-size: 18px;
+  }
+  .author {
+    margin-top: 30px;
+    padding: 20px 30px;
+    max-width: 366px;
+  }
+  .author__title {
+    font-size: 20px;
+  }
+  .author__name {
+    font-size: 18px;
+  }
+}
 h1,
 h2,
 h3,
