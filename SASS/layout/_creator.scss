@@ -121,8 +121,7 @@
 }
 
 .creator__btn {
-  display: inline-flex;
-  order: 1;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -138,8 +137,16 @@
   color: $label;
 }
 
+.creator__btn--desktop {
+  display: none;
+}
+
 .creator__icon {
   height: 40px;
+}
+
+.creator__profession--desktop {
+  display: none;
 }
 
 // Desktop
@@ -193,9 +200,6 @@
     align-items: flex-start;
   }
 
-  .creator__profession__wrapper {
-  }
-
   .creator__profession-invis {
     display: none;
   }
@@ -212,6 +216,15 @@
 
   .experience__info {
     font-size: 18px;
+  }
+
+  .creator__btn--mobile {
+    display: none;
+  }
+
+  .creator__btn--desktop {
+    display: inline-block;
+    width: 100%;
   }
 
   .quote__wrapper {
@@ -231,11 +244,8 @@
     font-size: 18px;
   }
 
-  .creator__btn {
-    order: 0;
-  }
-
   .creator__profession--desktop {
+    display: block;
     padding: 23px 30px;
     max-width: none;
   }
