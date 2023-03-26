@@ -305,38 +305,54 @@
         <div class="container">
           <h2 class="creator__title">Автор курса</h2>
           <h3 class="creator__subtitle">Інна Артюшкіна</h3>
+
           <img class="creator__img" src="./images/course.png" alt="author" width="348" />
 
-          <span class="creator__profession creator__profession--margin">
-            <img class="profession__img" src="./images/graduation.png" alt="graduation" width="20" />
-            <p>Психолог (КНУ імені Тараса Шевченка)</p>
-          </span>
-          <span class="creator__profession creator__profession--margin-btm">
-            <img class="profession__img" src="./images/certificate.png" alt="graduation" width="20" />
-            <p>Дипломований консультант методики Recall Healing</p>
-          </span>
+          <div class="creator__wrapper">
+            <div class="creator__profession__wrapper">
+              <span class="creator__profession creator__profession--margin creator__profession-invis">
+                <img class="profession__img" src="./images/graduation.png" alt="graduation" width="20" />
+                <p>Психолог (КНУ імені Тараса Шевченка)</p>
+              </span>
+              <span class="creator__profession creator__profession--margin-btm creator__profession-invis">
+                <img class="profession__img" src="./images/certificate.png" alt="graduation" width="20" />
+                <p>Дипломований консультант методики Recall Healing</p>
+              </span>
 
-          <ul class="experience__list">
-            <li class="experience__item">
-              <img class="experience__icon" src="./images/common-list1.svg" alt="" width="24" />
-              <p class="experience__info">5 річний досвід особистого консультування</p>
-            </li>
-            <li class="experience__item">
-              <img class="experience__icon" src="./images/common-list1.svg" alt="" width="24" />
-              <p class="experience__info">Автор проекту «Choice» з трансформації тіла через психологічну роботу</p>
-            </li>
-            <li class="experience__item">
-              <img class="experience__icon" src="./images/common-list1.svg" alt="" width="24" />
-              <p class="experience__info">Фахівець з метафоричних карт</p>
-            </li>
-          </ul>
-          <span class="quote">
-            <p class="quote__text">
-              “ Драматичні події з минулого, які ми не опрацьовуємо, мають звичку повертатися у фізичних проявах:
-              хворобах, конфліктах, циклічних сценаріях “
-            </p>
-          </span>
-          <button class="creator__btn" type="button">Зареєструватись на курс</button>
+              <ul class="experience__list">
+                <li class="experience__item">
+                  <img class="experience__icon" src="./images/common-list1.svg" alt="" width="24" />
+                  <p class="experience__info">5 річний досвід особистого консультування</p>
+                </li>
+                <li class="experience__item">
+                  <img class="experience__icon" src="./images/common-list1.svg" alt="" width="24" />
+                  <p class="experience__info">Автор проекту «Choice» з трансформації тіла через психологічну роботу</p>
+                </li>
+                <li class="experience__item">
+                  <img class="experience__icon" src="./images/common-list1.svg" alt="" width="24" />
+                  <p class="experience__info">Фахівець з метафоричних карт</p>
+                </li>
+              </ul>
+              <button class="creator__btn" type="button">Зареєструватись на курс</button>
+            </div>
+
+            <div class="quote__wrapper">
+              <span class="quote">
+                <p class="quote__text">
+                  “ Драматичні події з минулого, які ми не опрацьовуємо, мають звичку повертатися у фізичних проявах:
+                  хворобах, конфліктах, циклічних сценаріях “
+                </p>
+              </span>
+              <span class="creator__profession creator__profession--desktop creator__profession--margin">
+                <img class="profession__img" src="./images/graduation.png" alt="graduation" width="20" />
+                <p class="creator__profession__text">Психолог (КНУ імені Тараса Шевченка)</p>
+              </span>
+              <span class="creator__profession creator__profession--desktop">
+                <img class="profession__img" src="./images/certificate.png" alt="graduation" width="20" />
+                <p class="creator__profession__text">Дипломований консультант методики Recall Healing</p>
+              </span>
+            </div>
+          </div>
         </div>
         <img class="creator__icon" src="./images/lines.svg" alt="lines" />
       </section>
@@ -344,13 +360,17 @@
       <!-- Description Section -->
       <section class="description">
         <div class="container">
-          <p class="description__about">Про курс</p>
-          <h2 class="description___title">«Психосоматика ключ до здоров'я»</h2>
-          <p class="description__text">
-            Цей курс про те, як виявити «застряглу в тілі» емоцію, програму або установку, яка провокує погіршення
-            здоров'я та якості життя. Перенесені сильні стреси, приховані страхи, несвідома озлобленість, смуток,
-            незадоволеність — не маючи природного виходу, накопичуються в тілі та виливаються у фізичну проблему.
-          </p>
+          <div class="description__title__wrapper">
+            <p class="description__about">Про курс</p>
+            <h2 class="description___title">«Психосоматика ключ до здоров'я»</h2>
+          </div>
+          <div class="desctiption__text__wrapper">
+            <p class="description__text">
+              Цей курс про те, як виявити «застряглу в тілі» емоцію, програму або установку, яка провокує погіршення
+              здоров'я та якості життя. Перенесені сильні стреси, приховані страхи, несвідома озлобленість, смуток,
+              незадоволеність — не маючи природного виходу, накопичуються в тілі та виливаються у фізичну проблему.
+            </p>
+          </div>
         </div>
       </section>
 

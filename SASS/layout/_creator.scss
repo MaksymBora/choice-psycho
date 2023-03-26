@@ -26,6 +26,11 @@
   margin-bottom: -90px;
 }
 
+.creator__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .profession__img {
   width: 20px;
   height: 20px;
@@ -116,7 +121,8 @@
 }
 
 .creator__btn {
-  display: block;
+  display: inline-flex;
+  order: 1;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -134,4 +140,116 @@
 
 .creator__icon {
   height: 40px;
+}
+
+// Desktop
+
+@media screen and (min-width: 1200px) {
+  .creator__img {
+    display: none;
+  }
+
+  .creator__title {
+    font-size: 30px;
+  }
+
+  .creator__subtitle {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .creator {
+    padding-top: 80px;
+    background-image: url('../../images/course.png');
+    background-repeat: no-repeat;
+    background-size: 560px;
+    background-position: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../../images/desktop/course2x.webp');
+    }
+  }
+
+  @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/desktop/course3x.webp');
+    }
+  }
+
+  .creator__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 125px;
+    align-items: flex-start;
+  }
+
+  .creator__profession__wrapper {
+  }
+
+  .creator__profession-invis {
+    display: none;
+  }
+
+  .experience__list {
+    width: 350px;
+    margin-bottom: 50px;
+  }
+
+  .experience__icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .experience__info {
+    font-size: 18px;
+  }
+
+  .quote__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -130px;
+  }
+
+  .quote {
+    max-width: 370px;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+  }
+
+  .quote__text {
+    font-size: 18px;
+  }
+
+  .creator__btn {
+    order: 0;
+  }
+
+  .creator__profession--desktop {
+    padding: 23px 30px;
+    max-width: none;
+  }
+
+  .creator__profession__text {
+    font-size: 16px;
+  }
+
+  .profession__img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .creator__profession--margin {
+    margin-bottom: 20px;
+  }
 }
