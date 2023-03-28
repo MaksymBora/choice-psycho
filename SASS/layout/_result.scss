@@ -31,18 +31,22 @@
   padding-left: 1rem;
 }
 
-.result__item::before {
-  content: '\2022';
-  color: #7bbbdf;
-  font-weight: bold;
-  display: inline-block;
-
-  margin-left: -1em;
-  margin-right: 10px;
+.result__item {
+  display: flex;
+  align-items: baseline;
 }
 
-.result__item {
+.result__item::before {
+  content: '';
+  background-image: url('../../images/icons/circle.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 8px;
   display: inline-flex;
+  flex-shrink: 0;
+  margin-left: -1em;
+  margin-right: 10px;
 }
 
 .result__item:not(:last-child) {
@@ -61,4 +65,59 @@
   @extend %btn;
   padding-left: 47px;
   padding-right: 47px;
+}
+
+// Desktop
+
+@media screen and (min-width: 1200px) {
+  .result {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .container--flex {
+    display: flex;
+    gap: 70px;
+  }
+  .result__img {
+    width: 500px;
+  }
+
+  .result__number {
+    font-size: 80px;
+  }
+
+  .result__description {
+    font-size: 30px;
+  }
+
+  .result__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .result__item:last-child {
+    margin-bottom: 50px;
+  }
+
+  .result__info {
+    font-size: 18px;
+  }
+
+  .result__info::before {
+    width: 10px;
+    height: 10px;
+  }
+
+  .result__btn {
+    margin: 0;
+  }
+
+  .result__btn {
+    &.result__btn--desktop {
+      margin: 0;
+      padding: 16px 67px;
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
 }

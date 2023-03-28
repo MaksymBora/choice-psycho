@@ -1,4 +1,3 @@
-@charset "UTF-8";
 h1,
 h2,
 h3,
@@ -1528,19 +1527,29 @@ body {
   padding-left: 1rem;
 }
 
-.result__item::before {
-  content: "•";
-  color: #7bbbdf;
-  font-weight: bold;
-  display: inline-block;
-  margin-left: -1em;
-  margin-right: 10px;
+.result__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
-.result__item {
+.result__item::before {
+  content: "";
+  background-image: url("../../images/icons/circle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 8px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: -1em;
+  margin-right: 10px;
 }
 
 .result__item:not(:last-child) {
@@ -1560,6 +1569,49 @@ body {
   padding-right: 47px;
 }
 
+@media screen and (min-width: 1200px) {
+  .result {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .container--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 70px;
+  }
+  .result__img {
+    width: 500px;
+  }
+  .result__number {
+    font-size: 80px;
+  }
+  .result__description {
+    font-size: 30px;
+  }
+  .result__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .result__item:last-child {
+    margin-bottom: 50px;
+  }
+  .result__info {
+    font-size: 18px;
+  }
+  .result__info::before {
+    width: 10px;
+    height: 10px;
+  }
+  .result__btn {
+    margin: 0;
+  }
+  .result__btn.result__btn--desktop {
+    margin: 0;
+    padding: 16px 67px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
 h1,
 h2,
 h3,
