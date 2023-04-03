@@ -2073,6 +2073,17 @@ body {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .lessons__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+  }
+  .first-lesson {
+    padding: 40px 50px;
+  }
+}
 h1,
 h2,
 h3,

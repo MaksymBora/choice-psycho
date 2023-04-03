@@ -224,3 +224,15 @@
   width: 100%;
   margin-bottom: 0;
 }
+
+
+@media screen and (min-width: 1200px) {
+  .lessons__wrapper {
+    display: flex;
+    gap: 30px;
+  }
+
+  .first-lesson {
+    padding: 40px 50px;
+  }
+}
