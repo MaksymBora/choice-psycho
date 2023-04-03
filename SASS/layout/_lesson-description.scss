@@ -225,14 +225,108 @@
   margin-bottom: 0;
 }
 
-
 @media screen and (min-width: 1200px) {
+  .lesson-description {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   .lessons__wrapper {
     display: flex;
     gap: 30px;
+    margin-bottom: 50px;
   }
 
   .first-lesson {
     padding: 40px 50px;
+    margin-bottom: 0;
+  }
+
+  .first-lesson__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .first-lesson__info {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .first-lesson__subtitle {
+    margin-bottom: 20px;
+  }
+
+  .first-lesson__description {
+    font-size: 16px;
+  }
+
+  .first-lesson__list {
+    margin-bottom: 30px;
+  }
+
+  .first-lesson__item::marker {
+    font-size: 16px;
+  }
+
+  .first-lesson__item:last-child {
+    margin-bottom: 0;
+  }
+
+  // discount
+
+  .discount {
+    display: inline-flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+
+  .discount__info {
+    font-size: 16px;
+  }
+
+  // lesson-result
+
+  .lesson-result__wrapper {
+    padding: 20px 50px 20px 20px;
+    margin-bottom: 30px;
+  }
+
+  .lesson-result__info {
+    font-size: 16px;
+  }
+
+  .additional-materials__title {
+    margin-bottom: 20px;
+  }
+
+  .additional-materials__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .additional-materials__item:not(:last-child) {
+    margin: 0;
+  }
+
+  // second-lesson
+
+  .second-lesson {
+    margin-bottom: 0;
+  }
+
+  //Third Lesson
+
+  .third-lesson {
+    margin-bottom: 0;
+  }
+
+  // btn
+
+  .lesson-description__btn.btn--inlineflex {
+    margin-bottom: 0;
+    width: 350px;
+    padding: 17px 75px;
   }
 }
