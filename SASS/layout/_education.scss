@@ -54,3 +54,33 @@
   @extend %btn;
   padding: 15px 47px;
 }
+
+@media screen and (min-width: 1200px) {
+
+  .education {
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  .education__title {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+
+  .program__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    margin-bottom: 50px;
+  }
+
+  .program__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  
+  .program__item:last-child {
+    margin-bottom: 0;
+  }
+
+
+}
